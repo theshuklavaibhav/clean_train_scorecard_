@@ -1,0 +1,10 @@
+^C:\USERS\VAIBHAV\DOWNLOADS\INTERNAPPS\RAILWAY_SCORECARD_APP\BUILD\WINDOWS\X64\CMAKEFILES\73AE8D365235D8AAE64140551F2BFF2E\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\1a26ae2669456b21e383058f4886b630\pdfium-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\6d1b2cebb543134b6c128d3d0c5a22b0\pdfium-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\93e30fb7b19629977a220d07a84725cf\pdfium-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\windows\x64\pdfium-download\CMakeFiles\pdfium-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97CA0E76-CAC0-3E5F-8542-AD5F1669600A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

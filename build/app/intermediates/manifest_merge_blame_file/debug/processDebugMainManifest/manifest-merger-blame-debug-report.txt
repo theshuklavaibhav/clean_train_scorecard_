@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -23,16 +23,16 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\main\AndroidManifest.xml:39:5-44:15
+23-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\main\AndroidManifest.xml:39:5-44:15
 24        <intent>
-24-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\main\AndroidManifest.xml:40:9-43:18
+24-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\main\AndroidManifest.xml:40:9-43:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\main\AndroidManifest.xml:41:13-72
-25-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\main\AndroidManifest.xml:41:21-70
+25-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\main\AndroidManifest.xml:41:13-72
+25-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\main\AndroidManifest.xml:41:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\main\AndroidManifest.xml:42:13-50
-27-->C:\Users\Vaibhav\Downloads\Intern Apps\ss\android\app\src\main\AndroidManifest.xml:42:19-48
+27-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\main\AndroidManifest.xml:42:13-50
+27-->C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\android\app\src\main\AndroidManifest.xml:42:19-48
 28        </intent>
 29    </queries>
 30
@@ -90,21 +90,21 @@
 76            android:value="2" />
 77
 78        <provider
-78-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-16:20
+78-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-16:20
 79            android:name="net.nfet.flutter.printing.PrintFileProvider"
-79-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-71
+79-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-71
 80            android:authorities="com.example.ss.flutter.printing"
-80-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-68
+80-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-68
 81            android:exported="false"
-81-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-37
+81-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-37
 82            android:grantUriPermissions="true" >
-82-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-47
+82-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-47
 83            <meta-data
-83-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-15:71
+83-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-15:71
 84                android:name="android.support.FILE_PROVIDER_PATHS"
-84-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:17-67
+84-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:17-67
 85                android:resource="@xml/flutter_printing_file_paths" />
-85-->[:printing] C:\Users\Vaibhav\Downloads\Intern Apps\ss\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-68
+85-->[:printing] C:\Users\Vaibhav\Downloads\InternApps\Railway_Scorecard_App\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-68
 86        </provider>
 87
 88        <uses-library

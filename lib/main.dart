@@ -12,6 +12,8 @@ import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw; // For PDF widgets
 import 'package:printing/printing.dart'; // For printing/sharing PDF
 import 'package:provider/provider.dart'; // For state management
+import 'package:device_preview/device_preview.dart';
+
 
 
 // --- Data Models ---
@@ -213,11 +215,11 @@ class ScoreCardData {
   static Future<Uint8List> generatePdf(ScoreCardData data) async {
      final pdf = pw.Document();
 
-     // Load a font if needed (e.g., supports more characters than default)
-     // final fontData = await rootBundle.load('assets/fonts/YourFont-Regular.ttf');
-     // final font = pw.Font.ttf(fontData);
-     // final fontBoldData = await rootBundle.load('assets/fonts/YourFont-Bold.ttf');
-     // final fontBold = pw.Font.ttf(fontBoldData);
+    //  Load a font if needed (e.g., supports more characters than default)
+     final fontData = await rootBundle.load('assets/fonts/YourFont-Regular.ttf');
+     final font = pw.Font.ttf(fontData);
+     final fontBoldData = await rootBundle.load('assets/fonts/YourFont-Bold.ttf');
+     final fontBold = pw.Font.ttf(fontBoldData);
 
 
      pdf.addPage(
@@ -289,7 +291,7 @@ class ScoreCardData {
                           pw.SizedBox(height: 15),
                      ],
                   );
-               }).toList(),
+               }),
                // Footer
                 pw.Center(
                     child: pw.Text(
@@ -405,17 +407,18 @@ void main() async {
   }
 
 
-  runApp(const MyApp());
+ runApp(DevicePreview(enabled: true, builder: (context) => MyApp()));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => ScoreCardFormData(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Station Inspection Score Card',
         theme: ThemeData(
           primarySwatch: Colors.teal,
@@ -483,7 +486,7 @@ class MyApp extends StatelessWidget {
 // --- Score Card Form Widget (Updated) ---
 
 class ScoreCardForm extends StatefulWidget {
-  const ScoreCardForm({Key? key}) : super(key: key);
+  const ScoreCardForm({super.key});
 
   @override
   _ScoreCardFormState createState() => _ScoreCardFormState();
@@ -1200,7 +1203,7 @@ class _ScoreCardFormState extends State<ScoreCardForm> with WidgetsBindingObserv
                         padding: const EdgeInsets.symmetric(vertical: 4.0),
                         child: _buildScoreSection(section),
                       );
-                    }).toList(),
+                    }),
 
                     const SizedBox(height: 30),
 
@@ -1229,7 +1232,7 @@ class _ScoreCardFormState extends State<ScoreCardForm> with WidgetsBindingObserv
 // --- Submission History Screen ---
 
 class SubmissionHistoryScreen extends StatelessWidget {
-  const SubmissionHistoryScreen({Key? key}) : super(key: key);
+  const SubmissionHistoryScreen({super.key});
 
    @override
   Widget build(BuildContext context) {
@@ -1354,7 +1357,7 @@ class SubmissionHistoryScreen extends StatelessWidget {
 
 class SubmissionDetailScreen extends StatefulWidget {
   final String submissionId;
-  const SubmissionDetailScreen({Key? key, required this.submissionId}) : super(key: key);
+  const SubmissionDetailScreen({super.key, required this.submissionId});
 
   @override
   _SubmissionDetailScreenState createState() => _SubmissionDetailScreenState();
@@ -1535,7 +1538,7 @@ class _SubmissionDetailScreenState extends State<SubmissionDetailScreen> {
                   ),
                 ),
               );
-            }).toList(),
+            }),
 
             const SizedBox(height: 20),
           ],

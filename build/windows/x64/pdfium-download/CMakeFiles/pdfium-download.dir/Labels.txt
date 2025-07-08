@@ -1,0 +1,14 @@
+# Target labels
+ pdfium-download
+# Source files and their labels
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/pdfium-download
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/93e30fb7b19629977a220d07a84725cf/pdfium-download.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/6d1b2cebb543134b6c128d3d0c5a22b0/pdfium-download-complete.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-build.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-configure.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-download.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-install.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-mkdir.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-patch.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-test.rule
+C:/Users/Vaibhav/Downloads/InternApps/Railway_Scorecard_App/build/windows/x64/pdfium-download/CMakeFiles/1a26ae2669456b21e383058f4886b630/pdfium-download-update.rule
